@@ -21,7 +21,7 @@ The layer runs the PHP 7.1 [PHP webserver](http://php.net/manual/en/features.com
 $ php -S localhost:8000 '<handler>'
 ```
 
-The Lambda Function Handler property specifies the location of the the script executed in response to an incoming API Gateway request.
+The Lambda Function Handler property specifies the location of the script executed in response to an incoming API Gateway request.
 
 ##### Extensions
 The following extensions are built into the layer and available in /opt/lib/php/7.1/modules:
